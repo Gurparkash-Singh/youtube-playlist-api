@@ -1,10 +1,7 @@
 from os import getenv
 from re import compile
-from dotenv import load_dotenv
 from datetime import timedelta
 from googleapiclient.discovery import build
-
-load_dotenv()
 
 def get_playlist_time(fv, playlist_id):
     """
